@@ -18,11 +18,11 @@ connectDB();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors(
-  {
-    origin:["https://shahitodoapp.vercel.app"],
-    methods:["POST","GET"],
-    credentials:true
-  }
+  // {
+  //   origin:["https://shahitodoapp.vercel.app"],
+  //   methods:["POST","GET"],
+  //   credentials:true
+  // }
 ));
 
 
